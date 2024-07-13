@@ -116,6 +116,7 @@ sudo apt install -y adb
 adb connect 10.10.10.20:5555
 adb devices
 adb shell
+adb pull /system/app/cindy.apk E:\Cindy\  //get file
 ```
 ## License
 
