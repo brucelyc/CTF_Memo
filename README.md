@@ -118,6 +118,11 @@ adb devices
 adb shell
 adb pull /system/app/cindy.apk E:\Cindy\  //get file
 ```
+## _impacket upgrade_
+
+```sh
+python3 -m pip install --upgrade impacket
+```
 ## License
 
 MIT
