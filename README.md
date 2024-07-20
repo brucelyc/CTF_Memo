@@ -123,6 +123,11 @@ adb pull /system/app/cindy.apk E:\Cindy\  //get file
 ```sh
 python3 -m pip install --upgrade impacket
 ```
+## _gzip_
+
+```sh
+sudo gzip -d /usr/share/wordlists/rockyou.txt.gz
+```
 ## License
 
 MIT
