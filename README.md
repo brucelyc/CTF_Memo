@@ -128,6 +128,12 @@ python3 -m pip install --upgrade impacket
 ```sh
 sudo gzip -d /usr/share/wordlists/rockyou.txt.gz
 ```
+## _snow_
+
+```sh
+snow -C -p pass -m "message" text1.txt text2.txt
+snow -C -p pass text2.txt text3.txt
+```
 ## License
 
 MIT
