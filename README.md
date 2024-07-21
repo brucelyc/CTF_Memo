@@ -144,6 +144,17 @@ mount -t cifs //10.10.10.20/C$ /mnt/smb -o username=king,password=slave
 ```sh
 smbclient -U "kingdom\king"  //10.10.10.20/C$
 ```
+## _others_
+
+```sh
+njRAT
+SNOW
+OpenStego
+HashMyFiles
+VeraCrypt
+CrypTool
+ophcrack
+```
 ## License
 
 MIT
