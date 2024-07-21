@@ -147,9 +147,9 @@ smbclient -U "kingdom\king"  //10.10.10.20/C$
 ## _others_
 
 ```sh
-njRAT
-SNOW
-OpenStego
+njRAT         //trajon
+SNOW          //space
+OpenStego     //picture
 HashMyFiles
 VeraCrypt
 CrypTool
