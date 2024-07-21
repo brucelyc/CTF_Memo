@@ -134,6 +134,16 @@ sudo gzip -d /usr/share/wordlists/rockyou.txt.gz
 snow -C -p pass -m "message" text1.txt text2.txt
 snow -C -p pass text2.txt text3.txt
 ```
+## _mount_
+
+```sh
+mount -t cifs //10.10.10.20/C$ /mnt/smb -o username=king,password=slave
+```
+## _smbclient_
+
+```sh
+mount -U "kingdom\king"  //10.10.10.20/C$
+```
 ## License
 
 MIT
