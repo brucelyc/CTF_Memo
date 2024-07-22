@@ -155,6 +155,7 @@ VeraCrypt
 CrypTool
 ophcrack
 dir xxx.xxx /s/a/p   //find files
+visudo
 ```
 ## License
 
