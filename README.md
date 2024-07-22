@@ -160,6 +160,7 @@ CrypTool
 ophcrack
 dir xxx.xxx /s/a/p   //find files
 visudo
+gitclone https://github.com/ly4k/PwnKit.git
 ```
 ## License
 
