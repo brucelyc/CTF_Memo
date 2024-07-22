@@ -138,6 +138,9 @@ snow -C -p pass text2.txt text3.txt
 ## _mount_
 
 ```sh
+apt install nfs-common
+showmount -e 10.10.10.20
+mount -t nfs //10.10.10.20:/home /mnt/nfs
 mount -t cifs //10.10.10.20/C$ /mnt/smb -o username=king,password=slave
 ```
 ## _smbclient_
