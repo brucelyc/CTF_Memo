@@ -154,6 +154,7 @@ HashMyFiles
 VeraCrypt
 CrypTool
 ophcrack
+dir xxx.xxx /s/a/p   //find files
 ```
 ## License
 
