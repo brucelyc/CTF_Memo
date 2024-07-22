@@ -163,6 +163,7 @@ dir xxx.xxx /s/a/p   //find files
 visudo
 git clone https://github.com/ly4k/PwnKit.git    //CVE-2021-4034
 https://crackstation.net/
+https://book.hacktricks.xyz/pentesting-web/sql-injection/sqlmap
 ```
 ## License
 
