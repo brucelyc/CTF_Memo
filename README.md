@@ -167,6 +167,7 @@ nikto -h http://url -Tuning x -o results -F txt
 https://highon.coffee/blog/nikto-cheat-sheet/
 https://crackstation.net/
 https://book.hacktricks.xyz/pentesting-web/sql-injection/sqlmap
+set PAYLOAD php/reverse_php
 ```
 ## License
 
