@@ -162,6 +162,7 @@ ophcrack
 dir xxx.xxx /s/a/p   //find files
 visudo
 git clone https://github.com/ly4k/PwnKit.git    //CVE-2021-4034
+https://github.com/horsicq/DIE-engine/releases  //DIE
 nikto -h http://url -Tuning x -o results -F txt
 https://highon.coffee/blog/nikto-cheat-sheet/
 https://crackstation.net/
